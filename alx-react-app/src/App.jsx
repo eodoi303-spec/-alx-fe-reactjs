@@ -36,7 +36,7 @@ function App() {
     <div>
       <WelcomeMessage />
     </div>
-  <div>
+    <div>
       <Header />
       <MainContent />
       <Footer />
