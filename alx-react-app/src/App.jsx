@@ -1,4 +1,4 @@
-import Header from './Header';
+/*import Header from './Header';
 import MainContent from './MainContent';
 import Footer from './Footer';
 import WelcomeMessage from './components/WelcomeMessage';
@@ -38,13 +38,12 @@ function App() {
     <div>
       <WelcomeMessage />
     </div>
+  
     <div>
       <Header />
       <MainContent />
       <Footer />
-    </div>
-
-   
+    </div> 
 <div>
       <UserProfile
         name="Alice"
@@ -58,4 +57,21 @@ function App() {
   )
 }
 
-export default App
+export default App*/
+
+
+import Header from './Header';
+import MainContent from './MainContent';
+import Footer from './Footer';
+
+function App() {
+  return (
+    <div>
+      <Header />
+      <MainContent />
+      <Footer />
+    </div>
+  );
+}
+
+export default App;
